@@ -1,0 +1,189 @@
+body{
+    background-color: #657fa7;
+    background-image: linear-gradient(315deg, #b8cdb0 0%, #678ced 100%);
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    background-color: #f8f8f8; 
+    width: 800px;
+    overflow: hidden;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+}
+#formTwo{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 10px;
+    margin-left: 20px;
+    color: #112D4E;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #B83B5E;
+    font-family: 'Poppins', sans-serif;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    color: #678ced;
+    font-family: 'Poppins', sans-serif;
+}
+.question{
+    font-size: 20px;
+    color: #112D4E;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.two-answers{
+    color: #112D4E; 
+}
+label{
+    font-size: 20px;
+    color: #cb86cf;
+    font-family: 'Poppins', sans-serif;
+}
+ .btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ } 
+ .bta{
+    background-color: #f8f8f8;
+    color: #513a53;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    color: #112D4E;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+   
+ }
+ .bta:hover{
+    background-color: #513a53;
+    color: #f8f8f8;
+ }
+ .cta{
+    margin-top: 40px;
+    padding: 10px;
+    width: 30%;
+    background-color: #b1c9b5;
+    border: none;
+    font-size: 20px;
+    color: #112D4E;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+ } 
+ .cta:hover {
+    background-color: #B83B5E;
+    color: white;
+ }
+ #show{
+    font-size: 30px;
+    color: #B83B5E;
+    font-weight: bold;
+ }
+
+ #header{
+    background-image: url("https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+ }
+
+ #quates_motiv{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+ }
+ #par{
+    font-size: 15px;
+    padding: 25px;
+    color: #B83B5E;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+ }
+ #next, #back{
+    padding: 0px;
+    background: none;
+    border: none;
+    
+ }
+ #buttonSlides{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .inputTwo{
+    border: none;
+    padding: 10px;
+    color: #112D4E;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+ }
+ #labelTwo{
+    margin-top: 10px;
+ }
+
+ @media all and ( max-width: 500px){
+    h4{
+        font-size: 15px;
+    }
+    input{
+        margin-left: 5px;
+    }
+    #par{
+        padding: 10px;
+    }
+    #header{
+        width: 300px;
+        height: 300px;
+        border-radius: 10%;
+        margin-left: 10px;
+    }
+ body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+ }
+ #form{
+    padding: 20px;
+ }
+ #next, #back{
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+}
+#formTwo{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+    
+

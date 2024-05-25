@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module-9</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://formspree.io/f/xdorzree">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="form">
+
+        <!-- Project two -->
+            <h1>Quizz 📜</h1>
+            <h4>How good do you know JavaScript?</h4>
+
+              <!-- Project one -->
+         <div id="header">
+            <div id="containerForQuates">
+              <p id="quates_motiv">Motivation quotes</p>
+               <div id="buttonSlides">
+               <button id="back"><img src="back.png" alt="icon"></button>
+               <p id="par">Motivation is simple. You eliminate those who are not motivated</p>
+               <button id="next"><img src="next.png" alt="icon"></button>
+              </div>
+            </div>
+           </div>
+        
+        <div class="container">
+        <p class="question">Question 1. </p>
+        <label>If you type the following code in the console window, what result will you get? 3 > 2 > 1 === false;</label><br>
+        <input class="input" type="radio" name="question_one" id="answerOne">True<br>
+        <input class="input" type="radio" name="question_one">False
+    </div>
+        
+    <div class="container">
+        <p class="question">Question 2.</p>
+        <label>JavaScript is a ___ -side programming language?</label><br>
+        <input class="input" type="radio" name="question_two">Client<br>
+        <input class="input" type="radio" name="question_two">Server<br>
+        <input class="input" type="radio" name="question_two" id="answerTwo">Both<br>
+        <input class="input" type="radio" name="question_two">None
+    </div>
+
+        <div class="container">
+            <p class="question">Question 3.</p>
+            <label>Which of the following will write the message “Hello DataFlair!” in an alert box?</label><br>
+            <input class="input" type="radio" name="question_three">alertBox(“Hello DataFlair!”)<br>
+            <input class="input" type="radio" name="question_three">alert(Hello DataFlair!)<br>
+            <input class="input" type="radio" name="question_three"> msgAlert(“Hello DataFlair!”)<br>
+            <input class="input" type="radio" name="question_three" id="answerThree">alert(“Hello DataFlair!”)
+        </div>
+
+        <div class="container">
+            <p class="question">Question 4.</p>
+            <label>How do you find the minimum of x and y using JavaScript?</label><br>
+            <input class="input" type="radio" name="question_four">min(x,y)<br>
+            <input class="input" type="radio" name="question_four" id="answerFour">Math.min(x,y)<br>
+            <input class="input" type="radio" name="question_four"> Math.min(xy)<br>
+            <input class="input" type="radio" name="question_four"> min(xy)
+        </div>
+
+        <div class="container">
+            <p class="question">Question 5.</p>
+            <p class="two-answers">Please select 2 correct answers</p>
+            <label>Which of the following statements will throw an error? </label><br>
+            <input class="input" type="radio" name="question_fiveOne">const fun = function bar(){}<br>
+            <input class="input" type="radio" name="question_fiveOne" id="answerFiveOne">const fun = function bar{}<br>
+            <input class="input" type="radio" name="question_fiveTwo"> function fun(){}<br>
+            <input class="input" type="radio" name="question_fiveTwo" id="answerFiveTwo"> function(){}
+        </div>
+
+        <div class="container">
+            <p class="question">Question 6.</p>
+            <label>Which JavaScript label catches all the values, except for the ones specified?</label><br>
+            <input class="input" type="radio" name="question_six">catch<br>
+            <input class="input" type="radio" name="question_six">label<br>
+            <input class="input" type="radio" name="question_six">try<br>
+            <input class="input" type="radio" name="question_six" id="answerSix">default
+        </div>
+
+        <div class="container">
+            <p class="question">Question 7.</p>
+            <label>Which are the correct “if” statements to execute certain code if “x” is equal to 2?</label><br>
+            <input class="input" type="radio" name="question_seven">if(x 2)<br>
+            <input class="input" type="radio" name="question_seven">if(x = 2)<br>
+            <input class="input" type="radio" name="question_seven" id="answerSeven">if(x === 2)<br>
+            <input class="input" type="radio" name="question_seven"> if(x != 2 )
+        </div>
+
+        <div class="container">
+            <p class="question">Question 8.</p>
+            <label>What will the code return? Boolean(3 < 7)</label><br>
+            <input class="input" type="radio" name="question_eight" id="answerEight">true <br>
+            <input class="input" type="radio" name="question_eight">fals<br>
+            <input class="input" type="radio" name="question_eight">NaN<br>
+            <input class="input" type="radio" name="question_eight">SyntaxError
+        </div>
+         
+        <div class="btn">
+            <button class="cta" type="submit">Submit</button>
+            <p id="show"></p>
+        </div>
+
+        <form id="formTwo" action="https://formspree.io/f/xdorzree" method="POST">
+           <h4>Send me a message</h4>
+
+    <label id="labelTwo">
+    Your name: <br>
+    <input class="inputTwo" type="text" name="text" placeholder="Enter your name...">
+    </label> 
+     <label id="labelTwo">
+     Your phone: <br>
+    <input class="inputTwo" type="phone" name="phone" placeholder="Enter your phone...">
+    </label>
+    <label id="labelTwo">
+    Your email: <br>
+    <input class="inputTwo" type="email" name="email" placeholder="Your email...">
+    </label>
+    <label id="labelTwo">
+    Your message: <br>
+    <textarea class="inputTwo" name="message" placeholder="Your message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button class="bta" type="submit">Send</button>
+</form>
+<p id="par">The quiz from this app is from internet with learning purpose</p>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
